@@ -28,7 +28,7 @@
     "sample": [
       { "line": "[02/Nov/2016:17:05:10 +0000] test.local  / http_code= query= uid=0 php_pid=8584 php_time=8.245 queue_wait=-1 request_id=\"-\""},
       { "line": "[02/Nov/2016:17:03:10 +0000] test.local GET /home http_code=200 query= uid=0 php_pid=8423 php_time=0.708 queue_wait=0 request_id=\"v-3ba0ac8e-a11e-11e6-b192-12ab7d2b3029\""},
-      { "line": "[14/Oct/2016:06:05:36 +0000] www.mysuezwater.com GET /my-account/billing-and-payments http_code=200 query= uid=340116 php_pid=18704 php_time=6.948 queue_wait=0 request_id=\"bbdc3e24-0467-4341-898f-081d0db18dee\""},
+      { "line": "[14/Oct/2016:06:05:36 +0000] test.local GET /my-account/billing-and-payments http_code=200 query= uid=340116 php_pid=18704 php_time=6.948 queue_wait=0 request_id=\"bbdc3e24-0467-4341-898f-081d0db18dee\""},
       { "line": "[02/Nov/2016:17:12:42 +0000] test.local GET /user/reset/416/1478105274/3GDUnT6JcrZVUyOS5iWZxbsRDDH7x_kbrf1VwSpXghU/brief?utm_source=reset-password-link&utm_medium=email&utm_campaign=reset-password http_code=200 query=utm_source=reset-password-link&utm_medium=email&utm_campaign=reset-password uid=0 php_pid=8985 php_time=5.352 queue_wait=0 request_id=\"69cef295-f016-41df-99b8-92b31047e4af\""}
     ]
   },
@@ -61,12 +61,8 @@
       "link": { "kind": "string" }
     },
     "sample": [
-      { "line": "Oct  9 06:26:30 172.25.0.109 unitedwater: http://www.mysuezwater.com|1475994390|php|54.235.217.95|http://www.mysuezwater.com/filter/tips||0||Warning: Creating default object from empty value in unitedwater_preprocess_page() (line 241 of /mnt/www/html/unitedwater/docroot/sites/all/themes/unitedwater/template.php). request_id=\"v-5073e54c-8de9-11e6-a3a0-12ab7d2b3029\"" },
-      { "line": "Oct  9 06:27:30 172.25.0.249 unitedwater: http://www.mysuezwater.com|1475994450|page not found|208.80.194.27|http://www.mysuezwater.com/www.googletagmanager.com/ns.html?id=GTM-WJW75D||0||www.googletagmanager.com/ns.html request_id=\"v-7461a700-8de9-11e6-aaae-12ab7d2b3029\"" },
-      { "line": "Oct  9 06:27:30 172.25.0.249 unitedwater: http://www.mysuezwater.com|1475994450|php|208.80.194.27|http://www.mysuezwater.com/www.googletagmanager.com/ns.html?id=GTM-WJW75D||0||Warning: Creating default object from empty value in unitedwater_preprocess_page() (line 241 of /mnt/www/html/unitedwater/docroot/sites/all/themes/unitedwater/template.php). request_id=\"v-7461a700-8de9-11e6-aaae-12ab7d2b3029\"" },
-      { "line": "Oct  9 06:28:17 172.25.0.109 unitedwater: http://www.mysuezwater.com|1475994497|page not found|164.132.161.58|http://www.mysuezwater.com/pennsylvania/contact-customer-service||0|| request_id=\"v-9041ad6c-8de9-11e6-9301-12ab7d2b3029\"" },
-      { "line": "Oct  9 06:28:51 172.25.1.64 unitedwater: https://www.mysuezwater.com|1475994531|php|91.108.70.126|https://www.mysuezwater.com/user/register|https://www.mysuezwater.com/|0||Warning: Creating default object from empty value in unitedwater_preprocess_page() (line 241 of /mnt/www/html/unitedwater/docroot/sites/all/themes/unitedwater/template.php). request_id=\"77ad1e45-0f38-4fd8-816f-4c77d9f870ae\"" },
-      { "line": "Oct  9 06:28:53 172.25.0.249 unitedwater: https://www.mysuezwater.com|1475994533|php|91.108.70.126|https://www.mysuezwater.com/?q=user|https://www.mysuezwater.com/|0||Warning: Creating default object from empty value in unitedwater_preprocess_page() (line 241 of /mnt/www/html/unitedwater/docroot/sites/all/themes/unitedwater/template.php). request_id=\"38e589c8-60c7-47b0-bf0a-7377b39dd1f3\"" }
+      { "line": "Oct  9 06:27:30 test-server test.local: http://test.local|1475994450|page not found|2.2.2.2|http://test.local/www.googletagmanager.com/ns.html?id=GTM-WJW75D||0||www.googletagmanager.com/ns.html request_id=\"v-7461a700-8de9-11e6-aaae-12ab7d2b3029\"" },
+      { "line": "Oct  9 06:28:51 test-server test.local: https://test.local|1475994531|php|2.2.2.2|https://test.local/user/register|https://test.local/|0||Warning: Creating default object from empty value in test_preprocess_page() (line 241 of /mnt/www/html/test/docroot/sites/all/themes/test/template.php). request_id=\"77ad1e45-0f38-4fd8-816f-4c77d9f870ae\"" },
     ]
   }
 }
