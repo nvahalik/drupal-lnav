@@ -62,7 +62,7 @@
     },
     "sample": [
       { "line": "Oct  9 06:27:30 test-server test.local: http://test.local|1475994450|page not found|2.2.2.2|http://test.local/www.googletagmanager.com/ns.html?id=GTM-WJW75D||0||www.googletagmanager.com/ns.html request_id=\"v-7461a700-8de9-11e6-aaae-12ab7d2b3029\"" },
-      { "line": "Oct  9 06:28:51 test-server test.local: https://test.local|1475994531|php|2.2.2.2|https://test.local/user/register|https://test.local/|0||Warning: Creating default object from empty value in test_preprocess_page() (line 241 of /mnt/www/html/test/docroot/sites/all/themes/test/template.php). request_id=\"77ad1e45-0f38-4fd8-816f-4c77d9f870ae\"" },
+      { "line": "Oct  9 06:28:51 test-server test.local: https://test.local|1475994531|php|2.2.2.2|https://test.local/user/register|https://test.local/|0||Warning: Creating default object from empty value in test_preprocess_page() (line 241 of /mnt/www/html/test/docroot/sites/all/themes/test/template.php). request_id=\"77ad1e45-0f38-4fd8-816f-4c77d9f870ae\"" }
     ]
   }
 }
